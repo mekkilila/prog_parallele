@@ -1,0 +1,2 @@
+total_cases,bayes_wins,bandit_wins,ties,pct_bayes,pct_bandit,pct_ties,avg_time_diff
+7,2,5,0,28.57142857142857,71.42857142857143,0.0,0.0043536201950961015
