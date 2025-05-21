@@ -1,0 +1,13 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# macOS system files
+.DS_Store
+
+# Python virtual environments
+bench_env/
+env/
+
+# Ignore Python cache and build artifacts in attention_functions
+attention_functions/__pycache__/
+attention_functions/build/
