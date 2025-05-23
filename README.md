@@ -10,6 +10,6 @@ Ce projet vise à calculer l'attention, en optimisant le choix des paramètres d
 
 2. Cythoniser la fonction de calcul de l'attention reposant sur cython : `python setup.py build_ext --inplace`
 
-3. Exécuter les algorithmes pour optimiser les paramètres : `2. python benchmark.py --method='bayes'` et `2. python benchmark.py --method='bandit'`
+3. Exécuter les algorithmes pour optimiser les paramètres : `python benchmark.py --method='bayes'` et `python benchmark.py --method='bandit'`
 
 4. Calculer les statistiques de comparaison des deux algorithmes : `python compare.py`
