@@ -58,7 +58,8 @@ def compare_methods(csv_bandit: str, csv_bayes: str, keys: list):
         'avg_time_diff': avg_diff
     }
 
-    return df, stats
+    return df[display_cols], stats
+
 
 df_comp, summary = compare_methods(
     'results/timings_summary_bandit.csv',
@@ -71,3 +72,6 @@ os.makedirs('results', exist_ok=True)
 df_summary.to_csv('results/summary_stats.csv', index=False)
 
 print("[INFO] Summary saved to results/summary_stats.csv")
+
+df_comp.to_csv('results/detailed_stats.csv', index=False)
+print("[INFO] Comparison table saved to results/detailed_stats.csv")
