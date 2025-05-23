@@ -11,3 +11,7 @@ env/
 # Ignore Python cache and build artifacts in attention_functions
 attention_functions/__pycache__/
 attention_functions/build/
+
+# Ignore cpython files generated in attention_functions
+cython_attention.cpython-311-darwin.so
+cython_attention.cpython-312-x86_64-linux-gnu.so

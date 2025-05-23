@@ -4,3 +4,5 @@ pandas
 rich
 scikit-learn
 scipy
+numba
+Cython
